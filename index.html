@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bus Clone</title>
+    <link rel="icon" href="Assets/rb_vertical.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header id="nav">
+
+        <div class="nav-left">
+            <img src="Assets/rdc-redbus-logo.svg" alt="">
+        </div>
+
+        <div class="seperator"></div>
+
+        <ul class="nav-mid">
+            <li>
+                <img src="Assets/rb_vertical.svg" alt="">
+                <span>Bus Tickets</span>
+            </li>
+            <li class="rail-icon">
+                <img src="Assets/rail_vertical.svg" alt="">
+                <span>Train Tickets</span>
+                <span class="train-coupon">&#8377;80 off</span>
+            </li>
+        </ul>
+
+        <ul class="nav-right">
+            <li class="nav-help">
+                <i class="fa-solid fa-headset"></i>
+                <span>Help</span>
+            </li>
+            <li class="nav-account">
+                <i class="fa-regular fa-circle-user"></i>
+                <span>Account</span>
+            </li>
+        </ul>
+
+    </header>
+
+    <!-- Hero Section -->
+    <div id="hero">
+
+        <h1>India's No. 1 Online Bus Ticket Booking Site</h1>
+
+        <div class="input">
+
+
+            <div class="input-color">
+
+                <div class="input-1">
+                    <span class="exchange"></span>
+
+                    <img src="Assets/from.png" alt="">
+                    <div class="from">
+                        <span>From</span>
+                        <input title="from" type="search">
+                    </div>
+                </div>
+
+
+                <div class="input-1">
+                    <img src="Assets/to.png" alt="">
+                    <div class="from">
+                        <span>To</span>
+                        <input title="to" type="search">
+                    </div>
+
+                </div>
+
+                <div class="input-1">
+                    <img src="Assets/date.png" alt="">
+                    <div class="from">
+                        <h6 class="date">Date</h6>
+                    </div>
+
+                </div>
+
+                <div class="input-2">
+
+                    <span>Search Buses</span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- Main content 1 -->
+
+    <div id="content">
+
+        <div class="section-1">
+
+            <div class="section-head">
+                <h1>Trending Offers</h1>
+                <button>View All</button>
+            </div>
+
+            <div class="trend">
+
+                <!-- item 1 -->
+
+                <div class="item">
+
+                    <img src="Assets/trending offer 1.png" alt="">
+
+                    <div class="item-text">
+
+                        <span style="background-color: rgba(255, 255, 255, 0.301);">Bus</span>
+                        <h3>Save up to Rs 250 on bus tickets</h3>
+                        <p>Valid till 01 Jul</p>
+
+                        <div class="coupon">
+                            <button>FIRST</button>
+                            <i class="fa-regular fa-clone"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- item 2 -->
+
+                <div class="item" style="background: linear-gradient(to right,rgb(0, 87, 93),rgb(0, 188, 144));">
+
+                    <img src="Assets/trending offer 1.png" alt="">
+
+                    <div class="item-text">
+
+                        <span style="background-color: rgba(255, 255, 255, 0.301);">Bus</span>
+                        <h3>Save up to Rs 500 with ICICI</h3>
+                        <p>Valid till 21 Jun</p>
+
+                        <div class="coupon">
+                            <button style="width: 70px; background-color: rgba(255, 255, 255, 0.301);">ICICI500</button>
+                            <i class="fa-regular fa-clone"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- item 2 -->
+
+                <div class="item" style="background: linear-gradient(to right,rgb(74, 13, 3),rgb(179, 32, 32));">
+
+                    <img src="Assets/trending offer 1.png" alt="">
+
+                    <div class="item-text">
+
+                        <span style="background-color: rgba(255, 255, 255, 0.301);">Bus</span>
+                        <h3>Save up to Rs 300 on AP, TS routes</h3>
+                        <p>Valid till 01 Jul</p>
+
+                        <div class="coupon">
+                            <button style="width: 80px; background-color: rgba(255, 255, 255, 0.299);">SUPERHIT</button>
+                            <i class="fa-regular fa-clone"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- item 3 -->
+
+                <div class="item" style="background: linear-gradient(to right,rgb(0, 117, 82),rgb(37, 199, 134));">
+
+                    <img src="Assets/trending offer 1.png" alt="">
+
+                    <div class="item-text">
+
+                        <span style="background-color: rgb(255, 255, 255,0.300);">Bus</span>
+                        <h3>Get 50% instant discount upto Rs 50</h3>
+                        <p>Valid till 01 Jul</p>
+
+                        <div class="coupon">
+                            <button style="background-color: rgb(255, 255, 255,0.300);">FLAT50</button>
+                            <i class="fa-regular fa-clone"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- item 4 -->
+
+                <div class="item" style="background: linear-gradient(to right,rgb(0, 111, 134),rgb(44, 154, 222));">
+
+                    <img src="Assets/trending offer 1.png" alt="">
+
+                    <div class="item-text">
+
+                        <span style="background-color: rgb(255, 255, 255,0.300);">Bus</span>
+                        <h3>Save up to Rs 300 on Delhi, North, MP.</h3>
+                        <p>Valid till 01 Jul</p>
+
+                        <div class="coupon">
+                            <button style="width: 65px; background-color: rgb(255, 255, 255,0.300);">BUS300</button>
+                            <i class="fa-regular fa-clone"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- item 5 -->
+
+                <div class="item" style="background: linear-gradient(to right,rgb(184, 123, 0),rgb(255, 183, 68));">
+
+                    <img src="Assets/trending offer 1.png" alt="">
+
+                    <div class="item-text">
+
+                        <span style="background-color: rgb(255, 255, 255,0.300);">Bus</span>
+                        <h3>Save up to Rs 300 on Chartered Bus</h3>
+                        <p>Valid till 01 Jul</p>
+
+                        <div class="coupon">
+                            <button style="width: 120px; background-color: rgb(255, 255, 255,0.300);">CHARTERED15</button>
+                            <i class="fa-regular fa-clone"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+
+        <div class="section-2">
+
+            <div class="section-2-head">
+                <h1>Government Buses</h1>
+                <button>View All</button>
+            </div>
+
+            <div class="gov">
+
+                <!-- Gov-item-1 -->
+
+                <div class="gov-item">
+
+                    <div class="gov-item-head">
+
+                        <img src="Assets/BSRTC.png" alt="">
+
+                        <h1>BSRTC</h1>
+
+                        <span style="margin-left: -25px;">Bihar state road transport corporation</span>
+
+                    </div>
+
+                    <hr>
+
+                    <p>220 services including Volvo Bus, AC &amp; Non AC Bus and more</p>
+
+                    <span><img src="Assets/rb_vertical.svg" alt="">Offical Booking Partner of BSRTC</span>
+
+                </div>
+
+
+                <!-- Gov-item-2 -->
+
+                <div class="gov-item">
+
+                    <div class="gov-item-head">
+
+                        <img src="Assets/RSRTC.png" alt="">
+
+                        <h1>RSRTC</h1>
+
+                        <span style="margin-left: -10px;">Rajisthan state road transport corporation</span>
+
+                    </div>
+
+                    <hr>
+
+                    <p>6000 services including Deluxe, Ordinary and more</p>
+
+                    <span><img src="Assets/rb_vertical.svg" alt="">Offical Booking Partner of RSRTC</span>
+
+                </div>
+
+                <!-- Gov-item-3 -->
+
+
+                <div class="gov-item">
+
+                    <div class="gov-item-head">
+
+                        <img src="Assets/jksrtc.png" alt="">
+
+                        <h1>JKSRTC</h1>
+
+                        <span style="margin-left: 15px;">Jammu-Kashmir state road transport corporation</span>
+
+                    </div>
+
+                    <hr>
+
+                    <p>16 services including Volvo Bus, AC &amp; Non AC Bus and more</p>
+
+                    <span><img src="Assets/rb_vertical.svg" alt="">Offical Booking Partner of BSRTC</span>
+
+                </div>
+
+                <!-- Gov-item-4 -->
+
+
+                <div class="gov-item">
+
+                    <div class="gov-item-head">
+
+                        <img src="Assets/upsrtc.png" alt="">
+
+                        <h1>UPSRTC</h1>
+
+                        <span style="margin-left: 5px;">Uttar Pradesh state road transport corporation</span>
+
+                    </div>
+
+                    <hr>
+
+                    <p>1738 services including Volvo Bus, AC &amp; Non AC Bus and more</p>
+
+                    <span><img src="Assets/rb_vertical.svg" alt="">Offical Booking Partner of BSRTC</span>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <!-- Section 3 -->
+
+        <div class="section-3">
+
+            <div class="section-3-left">
+
+                <h1>NOW, <strong>GET MORE THAN JUST BUS</strong> TICKETS WITH REDBUS!</h1>
+                <span><img src="Assets/rail_vertical.svg" alt="">Train Tickets</span>
+                <p>Book IRCTC Train Tickets on redRail simple &amp; superfast booking process with no service fee + no payment gateway charge.</p>
+                <ul>
+                    <li><img src="Assets/railAuthorized.png" alt="">Authorised IRCTC Partner</li>
+                    <li><img src="Assets/railHasslefree.svg" alt="">Instant refunds on UPI payments</li>
+                    <li><img src="Assets/railrefunds.svg" alt="">Hassle- free customer support</li>
+                </ul>
+                <button>Book Train Tickets <img src="Assets/right arrow.png" alt=""></button>
+
+            </div>
+
+            <div class="section-3-right">
+
+                <img src="Assets/railPop.webp" alt="">
+
+            </div>
+
+        </div>
+
+        <!-- Section 4 -->
+
+        <div class="section-4">
+
+            <h1>Enjoy The App!</h1>
+
+            <div class="install">
+
+                <div class="install-rating">
+
+                    <span><i class="fa-solid fa-circle-check"></i>Quick Access</span>
+                    <span><i class="fa-solid fa-circle-check"></i>Superior live tracking</span>
+
+                    <div class="rating">
+
+                        <div class="rate-1">
+
+                            <h1>4.6 &#128970;</h1>
+                            <p>50M+ downloads</p>
+                            <span>Play Store</span>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="rate-1">
+
+                            <h1>4.6 &#128970;</h1>
+                            <p>50M+ downloads</p>
+                            <span>App Store</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="download-1">
+
+                    <span>Scan to download</span>
+                    <img src="Assets/qrCode (1).svg" alt="">
+
+                </div>
+
+                <div class="download-2">
+
+                    <span>Download the App on </span>
+                    <img src="Assets/playStore.svg" alt="">
+                    <img src="Assets/appStore.svg" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Section 5 -->
+
+        <div class="section-5">
+
+            <div class="primo-left"></div>
+
+            <div class="primo-right">
+
+                <div class="primo-item">
+
+                    <img src="Assets/timer.svg" alt="">
+                    <div class="primo-text-r">
+                        <h1>On Time</h1>
+                        <span>Punctual arrivals on 95% trips</span>
+                    </div>
+
+                </div>
+
+                <div class="primo-item">
+
+                    <img src="Assets/pngfind.com-praying-png-12069.png" alt="">
+                    <div class="primo-text-r">
+                        <h1>Friendly Staff</h1>
+                        <span>Always ready to help</span>
+                    </div>
+
+                </div>
+
+                <div class="primo-item">
+
+                    <i class="fa-regular fa-star"></i>
+                    <div class="primo-text-r">
+                        <h1>Top Rated</h1>
+                        <span>Buses with 4+ star rating</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Section 6 -->
+
+        <div class="section-6">
+
+            <h1>
+                Global Presence
+            </h1>
+
+            <div class="flag">
+
+                <div class="flag-item">
+
+                    <img src="Assets/Colombia.svg" alt="">
+                    <span>Colombia</span>
+
+                </div>
+
+                <div class="flag-item">
+
+                    <img src="Assets/India.svg" alt="">
+                    <span>India</span>
+
+                </div>
+
+                <div class="flag-item">
+
+                    <img src="Assets/Indonesia.svg" alt="">
+                    <span>Indonesia</span>
+
+                </div>
+
+                <div class="flag-item">
+
+                    <img src="Assets/Malaysia.svg" alt="">
+                    <span>Malaysia</span>
+
+                </div>
+
+                <div class="flag-item">
+
+                    <img src="Assets/Peru.svg" alt="">
+                    <span>Peru</span>
+
+                </div>
+
+                <div class="flag-item">
+
+                    <img src="Assets/Singapore.svg" alt="">
+                    <span>Singapore</span>
+
+                </div>
+
+                <div class="flag-item">
+
+                    <img src="Assets/Vietnam.svg" alt="">
+                    <span>Vietnam</span>
+
+                </div>
+
+                <div class="flag-item">
+
+                    <img src="Assets/Cambodia.svg" alt="">
+                    <span>Cambodia</span>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="back-to-home">
+        <div class="back-option"><a href="index.html">&#x2191;</a></div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+
+        <div class="foot-top">
+
+            <span>Popular Bus Routes <i class="fa-solid fa-chevron-down"></i></span>
+            <span>Popular cities <i class="fa-solid fa-chevron-down"></i></span>
+            <span>Popular Bus Operators <i class="fa-solid fa-chevron-down"></i></span>
+
+        </div>
+
+        <div class="foot-mid">
+
+            <div class="rb-title">
+                <img src="Assets/rb_vertical.svg" alt="">
+                <p>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.</p>
+            </div>
+
+            <div class="about-rb">
+                <span>About redBus</span>
+                <ul>
+                    <li>About us</li>
+                    <li>Investor relations</li>
+                    <li>Contact us</li>
+                    <li>Mobile Version</li>
+                    <li>redBus on mobile</li>
+                    <li>Sitemap</li>
+                    <li>Offers</li>
+                    <li>Careers</li>
+                    <li>Values</li>
+                </ul>
+            </div>
+
+            <div class="info-rb">
+                <span>Info</span>
+                <ul>
+                    <li>T&amp;C</li>
+                    <li>Privacy Policy</li>
+                    <li>FAQ</li>
+                    <li>Blog</li>
+                    <li>Bus operator registration</li>
+                    <li>Agent registration</li>
+                    <li>Insurance partner</li>
+                    <li>User agreement</li>
+                    <li>Primo Bus</li>
+                    <li>Bus Timetable</li>
+                </ul>
+            </div>
+
+            <div class="global-site">
+                <span>Global Sites</span>
+                <ul>
+                    <li>India</li>
+                    <li>Singapore</li>
+                    <li>Malaysia</li>
+                    <li>Indonesia</li>
+                    <li>Peru</li>
+                    <li>Colombia</li>
+                    <li>Cambodia</li>
+                    <li>Vietnam</li>
+                </ul>
+            </div>
+
+            <div class="partner">
+                <span>Our Partners</span>
+                <ul>
+                    <li>Goibibo Bus</li>
+                    <li>Goibibo Hotels</li>
+                    <li>Makemytrip Hotels</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+        <div class="foot-bottom">
+            <div class="copyright">
+                &#xa9;2024 Redbus India Pvt Ltd. All rights reserved
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
