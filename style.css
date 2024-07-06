@@ -316,6 +316,10 @@ input:focus {
     letter-spacing: 1px;
 }
 
+.section-head button:hover {
+    box-shadow: 0px 0px 10px -5px gray;
+}
+
 .trend {
     display: flex;
     overflow-x: scroll;
@@ -436,6 +440,10 @@ h1 {
     font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+.section-2-head button:hover {
+    box-shadow: 0px 0px 10px -5px gray;
 }
 
 .gov {
@@ -740,6 +748,7 @@ h1 {
     margin-top: 100px;
     margin-bottom: 50px;
     height: 550px;
+    cursor: pointer;
 }
 
 .primo-left {
@@ -845,43 +854,303 @@ h1 {
 }
 
 
+/* Section 7 */
+
+.section-7 {
+    width: 80%;
+}
+
+.section-7>span {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: rgb(42, 42, 42);
+}
+
+.section-7>p {
+    font-size: 1rem;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    line-height: 35px;
+    color: #56566b;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.section-7>p>a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* Section 8 */
+
+.section-8 {
+    width: 80%;
+    margin-top: 100px;
+}
+
+.section-8>span {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: rgb(42, 42, 42);
+}
+
+.section-8>p {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 35px;
+    color: #56566b;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+
+/* Offer */
+
+.offer {
+    width: 100%;
+    height: 25vh;
+    border-radius: 20px;
+    border: 1px solid rgb(200, 200, 200);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.offer>.offer-img {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-img>img {
+    width: 60px;
+}
+
+.offer>.offer-content {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    gap: 10px;
+}
+
+.offer-content>span {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+}
+
+.offer-content>p {
+    font-weight: bold;
+    color: #56566b;
+}
+
+.offer-content a {
+    color: #d84e55;
+    text-decoration: none;
+}
+
+.offer>.offer-button {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-button>button {
+    width: 130px;
+    height: 50px;
+    letter-spacing: 1px;
+    background-color: #d84e55;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+
+/* FAQ Section */
+
+.faq {
+    width: 80%;
+    min-height: 90vh;
+    margin-top: 100px;
+}
+
+.faq-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.faq-head>span {
+    width: 100%;
+}
+
+.faq-panel {
+    width: 100%;
+    height: 10%;
+    margin-top: 20px;
+}
+
+.faq-panel>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.faq-panel>ul>li {
+    min-width: 50px;
+    padding: 15px;
+    font-size: 1rem;
+    color: #56566b;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.faq-panel>ul>li:hover {
+    border-bottom: 3px solid gray;
+}
+
+.faq-panel>ul>li:nth-child(1) {
+    border-bottom: 3px solid #d84e55;
+    color: #d84e55;
+}
+
+.general {
+    margin-bottom: 20px;
+}
+
+.faq-items {
+    width: 100%;
+    margin-top: 40px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+}
+
+.faq-items>div:hover {
+    background-color: #f3f4f9;
+}
+
+.faq-items>div {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.faq-items>div>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-items>div>div>:nth-child(1) {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.faq-items>div>div>:nth-child(2) {
+    font-size: 2rem;
+}
+
+.faq-items>div:hover>div>:nth-child(2) {
+    display: none;
+}
+
+.faq-items>div>div>:nth-child(3) {
+    font-size: 2rem;
+    display: none;
+}
+
+.faq-items>div:hover>div>:nth-child(3) {
+    display: flex;
+}
+
+.faq-items>div>p {
+    display: none;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: #3d3d4b;
+}
+
+.faq-items>div:hover>p {
+    display: flex;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: #3d3d4b;
+}
+
+
 /* Footer */
 
 .footer {
     width: 100vw;
-    height: 115vh;
+    min-height: 100vh;
     border: none;
-    background-color: rgb(240, 240, 240);
+    background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     letter-spacing: 1px;
+    padding-top: 20px;
 }
 
 .foot-top {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 80%;
     justify-content: center;
 }
 
-.foot-top>span {
-    font-size: 1.7rem;
-    border-bottom: 2px solid grey;
+.foot-top>div>span {
+    font-size: 1.3rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
     padding: 20px;
+    font-weight: bold;
     color: rgb(54, 54, 54);
+    border-bottom: 1px solid grey;
+}
+
+.foot-top>div>p {
+    display: none;
+    text-align: justify;
+    font-size: 0.8rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+    color: rgb(110, 110, 110);
+}
+
+.foot-top>div:hover>span {
+    border: none;
+    margin-bottom: 0px;
+}
+
+.foot-top>div:hover>p {
+    display: flex;
+    transition: all 5s ease-in-out;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
 }
 
 .foot-mid {
     display: flex;
     justify-content: space-evenly;
-    width: 85%;
-    border-bottom: 1px solid rgb(180, 180, 180);
-    border-top: 1px solid rgb(181, 181, 181);
+    width: 90%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -893,12 +1162,17 @@ h1 {
 }
 
 .rb-title>img {
-    width: 100px;
+    width: 90px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .foot-mid p {
+    font-size: 0.9rem;
     color: rgb(94, 94, 94);
+    color: #56566b;
+    font-weight: normal;
+    line-height: 20px;
 }
 
 .foot-mid span {
@@ -909,6 +1183,9 @@ h1 {
 
 .foot-mid ul {
     margin-top: 10px;
+    font-size: 0.9rem;
+    color: #56566b;
+    font-weight: normal;
 }
 
 .foot-mid li {
@@ -919,8 +1196,15 @@ h1 {
 
 .foot-bottom {
     display: flex;
-    padding-top: 15px;
+    border-top: 1px solid rgb(180, 180, 180);
+    padding: 20px 20px;
     width: 80%;
+    align-items: center;
+}
+
+.foot-bottom-wrapper {
+    display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
